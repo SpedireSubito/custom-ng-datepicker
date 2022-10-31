@@ -1,7 +1,7 @@
 import { ɵɵdefineInjectable, Injectable, EventEmitter, Component, ViewEncapsulation, ChangeDetectionStrategy, forwardRef, ElementRef, Renderer2, ChangeDetectorRef, Input, HostBinding, Output, ViewChild, HostListener, Directive, ViewContainerRef, ComponentFactoryResolver, Optional, NgModule } from '@angular/core';
 import { NG_VALUE_ACCESSOR, NG_VALIDATORS, NgControl, FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
-import * as momentNs from 'moment';
+import * as momentNs from 'moment-mini';
 
 var ECalendarMode;
 (function (ECalendarMode) {

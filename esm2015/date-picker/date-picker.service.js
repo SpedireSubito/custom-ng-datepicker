@@ -1,5 +1,5 @@
 import { EventEmitter, Injectable } from '@angular/core';
-import * as momentNs from 'moment';
+import * as momentNs from 'moment-mini';
 import { UtilsService } from '../common/services/utils/utils.service';
 import { TimeSelectService } from '../time-select/time-select.service';
 import { DayTimeCalendarService } from '../day-time-calendar/day-time-calendar.service';

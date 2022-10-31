@@ -1,7 +1,7 @@
 import { ECalendarMode } from '../common/types/calendar-mode-enum';
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component, EventEmitter, forwardRef, HostBinding, Input, Output, ViewEncapsulation } from '@angular/core';
 import { DayCalendarService } from './day-calendar.service';
-import * as momentNs from 'moment';
+import * as momentNs from 'moment-mini';
 import { NG_VALIDATORS, NG_VALUE_ACCESSOR } from '@angular/forms';
 import { UtilsService } from '../common/services/utils/utils.service';
 const moment = momentNs;

@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import * as momentNs from 'moment';
+import * as momentNs from 'moment-mini';
 import { UtilsService } from '../common/services/utils/utils.service';
 const moment = momentNs;
 export class MonthCalendarService {

@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component, EventEmitter, forwardRef, HostBinding, Input, Output, ViewEncapsulation } from '@angular/core';
 import { MonthCalendarService } from './month-calendar.service';
-import * as momentNs from 'moment';
+import * as momentNs from 'moment-mini';
 import { NG_VALIDATORS, NG_VALUE_ACCESSOR } from '@angular/forms';
 import { UtilsService } from '../common/services/utils/utils.service';
 const moment = momentNs;
