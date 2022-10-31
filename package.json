@@ -26,7 +26,7 @@
     "strictMetadataEmit": true
   },
   "dependencies": {
-    "moment-mini": "^2.29.0",
+    "moment-mini": "^2.29.4",
     "tslib": "^2.0.0"
   },
   "module": "fesm2015/ng2-date-picker.js",

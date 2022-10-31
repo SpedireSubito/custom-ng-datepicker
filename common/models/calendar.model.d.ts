@@ -1,4 +1,4 @@
-import { Moment } from 'moment';
+import { Moment } from 'moment-mini';
 import { SingleCalendarValue } from '../types/single-calendar-value';
 export interface ICalendar {
     locale?: string;

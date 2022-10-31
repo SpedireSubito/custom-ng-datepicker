@@ -1,6 +1,6 @@
 import { EventEmitter } from '@angular/core';
 import { IDatePickerConfig, IDatePickerConfigInternal } from './date-picker-config.model';
-import { Moment } from 'moment';
+import { Moment } from 'moment-mini';
 import { UtilsService } from '../common/services/utils/utils.service';
 import { IDayCalendarConfig } from '../day-calendar/day-calendar-config.model';
 import { TimeSelectService } from '../time-select/time-select.service';

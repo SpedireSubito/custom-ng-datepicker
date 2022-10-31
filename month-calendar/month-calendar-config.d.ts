@@ -1,4 +1,4 @@
-import { Moment } from 'moment';
+import { Moment } from 'moment-mini';
 import { ICalendar, ICalendarInternal } from '../common/models/calendar.model';
 import { ECalendarValue } from '..';
 export interface IConfig {

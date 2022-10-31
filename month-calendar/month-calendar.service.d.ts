@@ -1,4 +1,4 @@
-import { Moment } from 'moment';
+import { Moment } from 'moment-mini';
 import { UtilsService } from '../common/services/utils/utils.service';
 import { IMonth } from './month.model';
 import { IMonthCalendarConfig, IMonthCalendarConfigInternal } from './month-calendar-config';

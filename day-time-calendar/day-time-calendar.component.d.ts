@@ -2,7 +2,7 @@ import { ECalendarValue } from '../common/types/calendar-value-enum';
 import { SingleCalendarValue } from '../common/types/single-calendar-value';
 import { ChangeDetectorRef, EventEmitter, OnChanges, OnInit, SimpleChanges } from '@angular/core';
 import { ControlValueAccessor, FormControl, ValidationErrors, Validator } from '@angular/forms';
-import { Moment } from 'moment';
+import { Moment } from 'moment-mini';
 import { CalendarValue } from '../common/types/calendar-value';
 import { UtilsService } from '../common/services/utils/utils.service';
 import { IDate } from '../common/models/date.model';

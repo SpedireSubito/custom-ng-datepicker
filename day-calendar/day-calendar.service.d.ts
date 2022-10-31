@@ -1,4 +1,4 @@
-import { Moment } from 'moment';
+import { Moment } from 'moment-mini';
 import { WeekDays } from '../common/types/week-days.type';
 import { UtilsService } from '../common/services/utils/utils.service';
 import { IDay } from './day.model';
