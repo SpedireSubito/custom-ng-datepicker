@@ -2,7 +2,7 @@ import { ECalendarValue } from '../common/types/calendar-value-enum';
 import { SingleCalendarValue } from '../common/types/single-calendar-value';
 import { ChangeDetectorRef, EventEmitter, OnChanges, OnInit, SimpleChanges } from '@angular/core';
 import { TimeSelectService, TimeUnit } from './time-select.service';
-import { Moment } from 'moment';
+import { Moment } from 'moment-mini';
 import { ITimeSelectConfig, ITimeSelectConfigInternal } from './time-select-config.model';
 import { ControlValueAccessor, FormControl, ValidationErrors, Validator } from '@angular/forms';
 import { CalendarValue } from '../common/types/calendar-value';

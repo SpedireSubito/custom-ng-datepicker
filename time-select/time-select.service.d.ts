@@ -1,4 +1,4 @@
-import { Moment } from 'moment';
+import { Moment } from 'moment-mini';
 import { UtilsService } from '../common/services/utils/utils.service';
 import { ITimeSelectConfig, ITimeSelectConfigInternal } from './time-select-config.model';
 export declare type TimeUnit = 'hour' | 'minute' | 'second';

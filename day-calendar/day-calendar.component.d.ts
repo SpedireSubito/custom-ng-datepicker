@@ -3,7 +3,7 @@ import { SingleCalendarValue } from '../common/types/single-calendar-value';
 import { ECalendarMode } from '../common/types/calendar-mode-enum';
 import { ChangeDetectorRef, EventEmitter, OnChanges, OnInit, SimpleChange, SimpleChanges } from '@angular/core';
 import { DayCalendarService } from './day-calendar.service';
-import { Moment, unitOfTime } from 'moment';
+import { Moment, unitOfTime } from 'moment-mini';
 import { IDayCalendarConfig, IDayCalendarConfigInternal } from './day-calendar-config.model';
 import { IDay } from './day.model';
 import { ControlValueAccessor, FormControl, ValidationErrors, Validator } from '@angular/forms';

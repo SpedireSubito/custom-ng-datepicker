@@ -14,7 +14,7 @@ import { IDpDayPickerApi } from './date-picker.api';
 import { DatePickerService } from './date-picker.service';
 import { AfterViewInit, ChangeDetectorRef, ElementRef, EventEmitter, OnChanges, OnDestroy, OnInit, Renderer2, SimpleChanges } from '@angular/core';
 import { ControlValueAccessor, FormControl, ValidationErrors, Validator } from '@angular/forms';
-import { Moment, unitOfTime } from 'moment';
+import { Moment, unitOfTime } from 'moment-mini';
 import { DateValidator } from '../common/types/validator.type';
 import { MonthCalendarComponent } from '../month-calendar/month-calendar.component';
 import { DayTimeCalendarComponent } from '../day-time-calendar/day-time-calendar.component';

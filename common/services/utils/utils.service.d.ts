@@ -1,6 +1,6 @@
 import { ECalendarValue } from '../../types/calendar-value-enum';
 import { SingleCalendarValue } from '../../types/single-calendar-value';
-import { Moment, unitOfTime } from 'moment';
+import { Moment, unitOfTime } from 'moment-mini';
 import { CalendarValue } from '../../types/calendar-value';
 import { IDate } from '../../models/date.model';
 import { CalendarMode } from '../../types/calendar-mode';

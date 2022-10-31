@@ -1,5 +1,5 @@
 import { SingleCalendarValue } from './single-calendar-value';
-import { unitOfTime } from 'moment';
+import { unitOfTime } from 'moment-mini';
 import { SelectEvent } from './selection-event.enum';
 export interface ISelectionEvent {
     date: SingleCalendarValue;
